@@ -1,6 +1,8 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ActiveSkill" preserve="all" />
+    <type fullname="ActPointUI" preserve="all" />
+    <type fullname="AnimationEvent" preserve="all" />
     <type fullname="ArmorConfig" preserve="all" />
     <type fullname="BarUI" preserve="all" />
     <type fullname="BarUIBase" preserve="all" />
@@ -19,10 +21,12 @@
     <type fullname="GameControl" preserve="all" />
     <type fullname="GridDataList" preserve="all" />
     <type fullname="HoverInformation" preserve="all" />
+    <type fullname="LevelData" preserve="all" />
     <type fullname="ListOptionUI" preserve="all" />
     <type fullname="ListSlelectUI" preserve="all" />
     <type fullname="MainUIManager" preserve="all" />
     <type fullname="Message" preserve="all" />
+    <type fullname="PassiveSkill" preserve="all" />
     <type fullname="PlayerInfoUI" preserve="all" />
     <type fullname="Role" preserve="all" />
     <type fullname="RoleConfig" preserve="all" />
@@ -36,15 +40,18 @@
     <type fullname="TeamControl" preserve="all" />
     <type fullname="UIControl" preserve="all" />
     <type fullname="WeaponConfig" preserve="all" />
+    <type fullname="BlockSkillDropRate" preserve="nothing" serialized="true" />
+    <type fullname="Effect" preserve="nothing" serialized="true" />
     <type fullname="RoleContainerStatus" preserve="nothing" serialized="true" />
     <type fullname="RoleData" preserve="nothing" serialized="true" />
     <type fullname="RoleStatus" preserve="nothing" serialized="true" />
+    <type fullname="SerializableDictionary`2/SerializableKeyValuePair[Level,RoleConfig]" preserve="nothing" serialized="true" />
     <type fullname="SerializableDictionary`2/SerializableKeyValuePair[UnityEngine.KeyCode,SkillSlotUI]" preserve="nothing" serialized="true" />
     <type fullname="SerializableDictionary`2/SerializableKeyValuePair[UnityEngine.Vector2Int,SkillGrid]" preserve="nothing" serialized="true" />
+    <type fullname="SerializableDictionary`2[Level,RoleConfig]" preserve="nothing" serialized="true" />
     <type fullname="SerializableDictionary`2[UnityEngine.KeyCode,SkillSlotUI]" preserve="nothing" serialized="true" />
     <type fullname="SerializableDictionary`2[UnityEngine.Vector2Int,SkillGrid]" preserve="nothing" serialized="true" />
     <type fullname="SkillGrid" preserve="nothing" serialized="true" />
-    <type fullname="SkillListStatus" preserve="nothing" serialized="true" />
     <type fullname="TeamData" preserve="nothing" serialized="true" />
     <type fullname="TeamStatus" preserve="nothing" serialized="true" />
     <type fullname="bl_HUDText/GameType" preserve="nothing" serialized="true" />
@@ -155,6 +162,7 @@
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
